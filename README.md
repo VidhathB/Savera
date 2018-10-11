@@ -1,17 +1,18 @@
 # Idea for codefundo++ Savera
 Savera is a novel approach to disaster recovery for local servers which mainly focuses on drastically reducing server restore times.
 
-## Product Description
-Natural calamities like floods, hurricanes and earthquakes cause huge losses especially to Small to Medium Enterprises. SMEs usually operate only in a few locations; while business assets are commonly localised. Disasters that significantly damage a small business’s assets sometimes prohibit the business from continuing operations. Data being one of the key drivers to businesses in this present era, loss of data or non-operational services can significantly dent turnovers and profits.
+## Problem Description
+Natural calamities like floods, hurricanes and earthquakes cause huge losses especially to Small to Medium Enterprises. SMEs usually operate only in a few locations; while business assets are commonly localised. Disasters that significantly damage a small business’s assets sometimes prohibit the business from continuing operations. Data being one of the key drivers to businesses in this present era, loss of data or non-operational services can significantly dent turnovers and profits. Savera looks to address this issues in a very cost efficient way, without having to pay for a separate mirror server annually.
 
-## Working
-In the event of a natural calamity, servers placed in unprotected locations like office rooms are susceptible to severe damage and hence loss of data. Savera predicts the oncoming of a calamity that might affect the servers and initiates a high speed data transfer process to the cloud.
+## Solution and Working
+In the event of a natural calamity, servers placed in unprotected locations like office rooms are susceptible to severe damage and hence loss of data. Savera predicts the oncoming of a calamity that might affect the servers and initiates a high speed data transfer process to the cloud which is preceeded by a highly efficient compression algorithm backed by an ML model which selects the most efficient compression algorithm accordign to the file which is later encrypted before transmission.
 This model being the first version, caters only to floods. Flood prediction is done using neural nets which is fed with the following data:
-	1. past data on water level and surges in level 
-	1. past data on surges at different locations i.e 		   estimation of safe levels for each place
-	1. current rainfall level and forecasted values
-   	1. sensor data of moisture in server room
-If the neural net triggers an interrupt that conditions might be unsafe for the servers, the file transfer process is initiated in the following manner:
+- past data on water level and surges in level 
+- past data on surges at different locations i.e estimation of safe levels for each place
+- current rainfall level and forecasted values
+- sensor data of moisture in server room
+
+If the neural net triggers an interrupt that states the prediction of unsafe conditions, the file transfer process is initiated in the following manner:
 
 ![alt text](https://github.com/VidhathB/Savera/blob/master/MSFT.png)
 
