@@ -34,7 +34,7 @@ Data stored in central system without any Disaster recovery server facility with
 
 In case data back-up and recovery systems are not in place, cost of data rebuilding can be insured. Cost of such risk transfer will cost more as the risk is higher. In case of any disaster, cost of data rebuilding, increased cost of working and consequential losses like business interruption losses can be recovered from Insurers which is about **200X**.
 
-### Converting Legacy systems into Cloud based
+### Getting Legacy systems onto the Cloud
 Enterprises hesitate change due to inertia of going through the process of a paradigm shift from old-school servers to new age cloud technologies. Once the after-effects of the disaster recede and a company is used to cloud based operations, they would never roll back to conventional methods hence pushing the enterprise tech industry.  
    
 
