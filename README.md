@@ -20,7 +20,7 @@ If the neural net triggers an interrupt that states the prediction of unsafe con
 Enterprises hesitate change due to inertia of going through the process of a paradigm shift from old-school servers to new age cloud technologies. Once the after-effects of the disaster recede and a company is used to cloud based operations, they would never roll back to conventional methods hence pushing the enterprise tech industry.  
    
 
-## Prerequisites
+## Requirements
 - Previous years rainfall pattern
 - Areas(co-ordinates) more susceptible to flooding
 - Flask-Python
