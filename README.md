@@ -1,0 +1,2 @@
+# Savera
+Savera is a novel approach to disaster recovery for local servers which mainly focuses on drastically reducing restore times. In the event of a natural calamity, serves placed in unprotected locations like office rooms are susceptible to severe damage and hence loss of data. Savera predicts the oncoming of a calamity that might affect the serves and initiates a high speed data transfer process to others nodes in the company network.
