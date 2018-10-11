@@ -14,7 +14,7 @@ This model being the first version, caters only to floods. Flood prediction is d
 
 If the neural net triggers an interrupt that states the prediction of unsafe conditions, the file transfer process is initiated in the following manner:
 
-![alt text](https://github.com/VidhathB/Savera/blob/master/flowchart.png)
+![alt text](https://github.com/VidhathB/Savera/blob/master/flowchart1.png)
 
 
 ## Prerequisites
