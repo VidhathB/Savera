@@ -5,7 +5,7 @@ Savera is a novel approach to disaster(floods) recovery for local servers which 
 ## Getting Legacy systems onto the Cloud
 Enterprises hesitate change due to inertia of going through the process of a paradigm shift from old-school servers to new age cloud technologies. Once the after-effects of the disaster recede and a company is used to cloud based operations, they would never roll back to conventional methods hence pushing the enterprise tech industry.  
 
-## Problem Description-
+## Problem Description
 Natural calamities like floods, hurricanes and earthquakes cause huge losses especially to Small to Medium Enterprises. SMEs usually operate only in a few locations; while business assets are commonly localised. Disasters that significantly damage a small business’s assets sometimes prohibit the business from continuing operations. Data being one of the key drivers to businesses in this present era, loss of data or non-operational services can significantly dent turnovers and profits. Savera looks to address this issues in a very cost efficient way, without having to pay for a separate mirror server annually.
 
 ## Solution and Working
