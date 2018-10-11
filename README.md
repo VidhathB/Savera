@@ -16,6 +16,9 @@ If the neural net triggers an interrupt that states the prediction of unsafe con
 
 ![alt text](https://github.com/VidhathB/Savera/blob/master/flowchart1.png)
 
+## Getting Legacy systems onto the Cloud
+Enterprises hesitate change due to inertia of going through the process of a paradigm shift from old-school servers to new age cloud technologies. Once the after-effects of the disaster recede and a company is used to cloud based operations, they would never roll back to conventional methods hence pushing the enterprise tech industry.  
+   
 
 ## Prerequisites
 - Previous years rainfall pattern
@@ -34,8 +37,3 @@ Natural calamities are a huge burden economically to insurance companies due to 
 Data stored in central system without any Disaster recovery server facility with data mirroring facility. In case disaster can be predicted in advance, data can be evacuated to a predefined alternate location and the system can be made up and running without any interruption. Even insurers can consider this cost **X** under loss minimisation expenses if the data recovery cost and business interruption costs are insured. 
 
 In case data back-up and recovery systems are not in place, cost of data rebuilding can be insured. Cost of such risk transfer will cost more as the risk is higher. In case of any disaster, cost of data rebuilding, increased cost of working and consequential losses like business interruption losses can be recovered from Insurers which is about **200X**.
-
-### Getting Legacy systems onto the Cloud
-Enterprises hesitate change due to inertia of going through the process of a paradigm shift from old-school servers to new age cloud technologies. Once the after-effects of the disaster recede and a company is used to cloud based operations, they would never roll back to conventional methods hence pushing the enterprise tech industry.  
-   
-
