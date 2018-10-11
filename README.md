@@ -2,10 +2,10 @@
 Savera is a novel approach to disaster recovery for local servers which mainly focuses on drastically reducing server restore times.
 
 ## Product Description
-Natural calamities like floods, hurricanes and earthquakes cause huge losses especially to Small to Medium Enterprises. SMEs usually operate only in a few locations; while business assets are commonly localised. Disasters that significantly damage a small business’s assets sometimes prohibit the business from continuing operations. Data being one of the key drivers to businesses in the present era, loss of data or non-operation of services can significantly dent turnovers and profits.
+Natural calamities like floods, hurricanes and earthquakes cause huge losses especially to Small to Medium Enterprises. SMEs usually operate only in a few locations; while business assets are commonly localised. Disasters that significantly damage a small business’s assets sometimes prohibit the business from continuing operations. Data being one of the key drivers to businesses in this present era, loss of data or non-operational services can significantly dent turnovers and profits.
 
 ## Working
-In the event of a natural calamity, serves placed in unprotected locations like office rooms are susceptible to severe damage and hence loss of data. Savera predicts the oncoming of a calamity that might affect the serves and initiates a high speed data transfer process to others nodes in the company network.
+In the event of a natural calamity, servers placed in unprotected locations like office rooms are susceptible to severe damage and hence loss of data. Savera predicts the oncoming of a calamity that might affect the serves and initiates a high speed data transfer process to others nodes in the company network.
 This model being the first version, caters only to floods. Flood prediction is done using neural nets which is fed with the following data:
 	1. past data on water level and surges in level 
 	1. past data on surges at different locations i.e 		   estimation of safe levels for each place
