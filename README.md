@@ -1,12 +1,16 @@
 # Idea for codefundo++ Savera
-Savera is a novel approach to disaster recovery for local servers which mainly focuses on drastically reducing server restore times.
+Savera is a novel approach to disaster(floods) recovery for local servers which mainly focuses on drastically reducing server restore times.
 
-## Problem Description
+
+## Getting Legacy systems onto the Cloud
+Enterprises hesitate change due to inertia of going through the process of a paradigm shift from old-school servers to new age cloud technologies. Once the after-effects of the disaster recede and a company is used to cloud based operations, they would never roll back to conventional methods hence pushing the enterprise tech industry.  
+
+## Problem Description-
 Natural calamities like floods, hurricanes and earthquakes cause huge losses especially to Small to Medium Enterprises. SMEs usually operate only in a few locations; while business assets are commonly localised. Disasters that significantly damage a small business’s assets sometimes prohibit the business from continuing operations. Data being one of the key drivers to businesses in this present era, loss of data or non-operational services can significantly dent turnovers and profits. Savera looks to address this issues in a very cost efficient way, without having to pay for a separate mirror server annually.
 
 ## Solution and Working
 In the event of a natural calamity, servers placed in unprotected locations like office rooms are susceptible to severe damage and hence loss of data. Savera predicts the oncoming of a calamity that might affect the servers and initiates a high speed data transfer process to the cloud, firstly a machine learning model is run which helps decide which compression algorithm to apply according to the file and is later encrypted before transmission.
-This model being the first version, caters only to floods. Flood prediction is done using neural nets which is fed with the following data:
+This model being the first version, caters only to **floods**. Flood prediction is done using neural nets which is fed with the following data:
 - past data on water level and surges in level 
 - past data on surges at different locations i.e estimation of safe levels for each place
 - current rainfall level and forecasted values
@@ -15,10 +19,6 @@ This model being the first version, caters only to floods. Flood prediction is d
 If the neural net triggers an interrupt that states the prediction of unsafe conditions, the file transfer process is initiated in the following manner:
 
 ![alt text](https://github.com/VidhathB/Savera/blob/master/flowchart1.png)
-
-## Getting Legacy systems onto the Cloud
-Enterprises hesitate change due to inertia of going through the process of a paradigm shift from old-school servers to new age cloud technologies. Once the after-effects of the disaster recede and a company is used to cloud based operations, they would never roll back to conventional methods hence pushing the enterprise tech industry.  
-   
 
 ## Requirements
 - Previous years rainfall pattern
